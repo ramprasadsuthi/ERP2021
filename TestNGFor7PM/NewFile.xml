@@ -4,6 +4,7 @@
     <classes>
       <class name="pack1.TG1"/>
       <class name="pack1.TG2"/>
+      <class name="pack1.TG3"/>
     </classes>
   </test>
 </suite>

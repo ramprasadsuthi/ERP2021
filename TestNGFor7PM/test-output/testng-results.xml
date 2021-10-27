@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ERP Stock Accounting Project" duration-ms="39823" started-at="2021-10-26T14:49:45Z" finished-at="2021-10-26T14:50:25Z">
+    <groups>
+      <group name="StockItems">
+        <method signature="TG1.TestCase_2_AccessStockItemsPage()[pri:2, instance:pack1.TG1@482f8f11]" name="TestCase_2_AccessStockItemsPage" class="pack1.TG1"/>
+        <method signature="TG1.TestCase_3_AddStockItem()[pri:1, instance:pack1.TG1@482f8f11]" name="TestCase_3_AddStockItem" class="pack1.TG1"/>
+      </group> <!-- StockItems -->
+      <group name="Login">
+        <method signature="TG1.TestCase_1_Login()[pri:3, instance:pack1.TG1@482f8f11]" name="TestCase_1_Login" class="pack1.TG1"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Stock Items Module" duration-ms="27016" started-at="2021-10-26T14:49:45Z" finished-at="2021-10-26T14:50:12Z">
+      <class name="pack1.TG1">
+        <test-method status="PASS" signature="createTestData()[pri:0, instance:pack1.TG1@482f8f11]" name="createTestData" is-config="true" duration-ms="7" started-at="2021-10-26T14:49:45Z" finished-at="2021-10-26T14:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestData -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.TG1@482f8f11]" name="launchBrowser" is-config="true" duration-ms="2440" started-at="2021-10-26T14:49:45Z" finished-at="2021-10-26T14:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TestCase_3_AddStockItem()[pri:1, instance:pack1.TG1@482f8f11]" name="TestCase_3_AddStockItem" duration-ms="9538" started-at="2021-10-26T14:49:48Z" finished-at="2021-10-26T14:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_3_AddStockItem -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.TG1@482f8f11]" name="closeBrowser" is-config="true" duration-ms="206" started-at="2021-10-26T14:49:57Z" finished-at="2021-10-26T14:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.TG1@482f8f11]" name="launchBrowser" is-config="true" duration-ms="1607" started-at="2021-10-26T14:49:57Z" finished-at="2021-10-26T14:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TestCase_2_AccessStockItemsPage()[pri:2, instance:pack1.TG1@482f8f11]" name="TestCase_2_AccessStockItemsPage" duration-ms="5976" started-at="2021-10-26T14:49:59Z" finished-at="2021-10-26T14:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_2_AccessStockItemsPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.TG1@482f8f11]" name="closeBrowser" is-config="true" duration-ms="272" started-at="2021-10-26T14:50:05Z" finished-at="2021-10-26T14:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.TG1@482f8f11]" name="launchBrowser" is-config="true" duration-ms="1540" started-at="2021-10-26T14:50:05Z" finished-at="2021-10-26T14:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TestCase_1_Login()[pri:3, instance:pack1.TG1@482f8f11]" name="TestCase_1_Login" duration-ms="5244" started-at="2021-10-26T14:50:07Z" finished-at="2021-10-26T14:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_1_Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.TG1@482f8f11]" name="closeBrowser" is-config="true" duration-ms="155" started-at="2021-10-26T14:50:12Z" finished-at="2021-10-26T14:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="cleanUpTestData()[pri:0, instance:pack1.TG1@482f8f11]" name="cleanUpTestData" is-config="true" duration-ms="1" started-at="2021-10-26T14:50:12Z" finished-at="2021-10-26T14:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTestData -->
+      </class> <!-- pack1.TG1 -->
+    </test> <!-- Stock Items Module -->
+    <test name="Stock Categories Module" duration-ms="12747" started-at="2021-10-26T14:50:12Z" finished-at="2021-10-26T14:50:25Z">
+      <class name="pack1.TG2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.TG2@6f7fd0e6]" name="launchBrowser" is-config="true" duration-ms="1432" started-at="2021-10-26T14:50:12Z" finished-at="2021-10-26T14:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TestCase_4_selectStockCategories()[pri:0, instance:pack1.TG2@6f7fd0e6]" name="TestCase_4_selectStockCategories" duration-ms="7029" started-at="2021-10-26T14:50:14Z" finished-at="2021-10-26T14:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_4_selectStockCategories -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.TG2@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="4273" started-at="2021-10-26T14:50:21Z" finished-at="2021-10-26T14:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pack1.TG2 -->
+    </test> <!-- Stock Categories Module -->
+  </suite> <!-- ERP Stock Accounting Project -->
+</testng-results>
